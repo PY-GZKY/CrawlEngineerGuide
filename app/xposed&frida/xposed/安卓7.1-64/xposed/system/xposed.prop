@@ -1,5 +1,0 @@
-version=89
-arch=x64
-minsdk=25
-maxsdk=25
-requires:fbe_aware=1

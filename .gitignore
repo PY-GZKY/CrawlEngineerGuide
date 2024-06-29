@@ -5,11 +5,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# 代码暂时不动
+code/
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
+userData/
 .idea/
 build/
 develop-eggs/
@@ -139,4 +142,3 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
