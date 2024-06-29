@@ -61,9 +61,14 @@ nav:
       - 首页: README.md
 
   - app逆向:
-      - app逆向的一般流程: app逆向的一般流程.md
+      - app逆向的一般流程: app123.md
 
-#  - FastAPI框架:
-#      - 如何快速开发 FastAPI 应用: how-to-quickly-develop-fastapi-application.md
-#      - 如何快速部署 FastAPI 服务: how-to-deploy-fastapi-services.md
-#      - 如何为 FastAPI 集成插件: how-to-integrate-plugins.md
+  - 爬虫基础:
+        - 爬虫抓包的选择: 爬虫抓包的选择.md
+        - 抓不到包的时候应该怎么办: 抓不到包的时候应该怎么办.md
+        - 通用的App爬虫流程: 通用的App爬虫流程.md
+        - 反编译小程序: 反编译小程序.md
+        - 反编译小程序: 反编译小程序.md
+        - 相关工具: 相关工具.md
+        - 逆向神器之Frida: 逆向神器之Frida.md
+        - 逆向神器之Xposed: 逆向神器之Xposed.md
