@@ -9,18 +9,6 @@
 总结：
 客户端发送请求给Appium Server，Appium Server转换请求给移动端，在移动端操作完成后返回响应内容给Appium Server，Appium Server再把结果返回给客户端。
 
----
-
-### 业务框架实现流程
-
-- 前端页面管理设备/维护张账号/设备信息
-- 通过FastAPI框架/Redis数据库进行数据交互
-- 通过Appium框架进行设备的操作
-- 通过chatgpt模型进行对话的生成/自动回复
-
-
-![](./images/框架流程图.png)
-
 ### 常见问题
 
 - 所以如果我要群控10台设备，需要启动10个appium server来进行分配是吗？
@@ -115,3 +103,4 @@ el3.click()
 ```
 
 更多操作参考：[https://blog.csdn.net/qq_45664055/article/details/134712607?spm=1001.2014.3001.5502](https://blog.csdn.net/qq_45664055/article/details/134712607?spm=1001.2014.3001.5502)
+
