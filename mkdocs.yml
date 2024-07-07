@@ -56,6 +56,11 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.number.min.js
 
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+
 nav:
   - 首页:
       - 首页: README.md
@@ -75,6 +80,7 @@ nav:
   - app群控:
       - app群控方案选择: app群控方案选择.md
       - app群控的准备工作: app群控的准备工作.md
+      - appium群控框架: appium群控框架.md
       - appium使用教程: appium使用教程.md
       - uiautomator2使用教程: uiautomator2使用教程.md
       - 安卓手机设置VPN代理: 安卓手机设置VPN代理.md
