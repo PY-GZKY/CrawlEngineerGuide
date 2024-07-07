@@ -1,3 +1,6 @@
+
+appium 响应速度太慢的问题经常被人所诟病，uiautomator2是一个更快的替代方案。
+
 ### 安装 uiautomator2
 
 [https://github.com/openatx/uiautomator2](https://github.com/openatx/uiautomator2)
