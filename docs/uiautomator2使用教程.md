@@ -109,6 +109,9 @@ uiauto.dev
 ```
 uiauto.dev 正常启动后，刷新网页即可。
 
+![](./images/uiauto.devsleep.png)
+
 这是一个开源项目，demo 可以在： [https://uiauto.devsleep.com/demo/12345](https://uiauto.devsleep.com/demo/12345)
+
 
 > 另：weditor 已经被废弃，不再维护，不要给自己找麻烦。
