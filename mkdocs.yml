@@ -84,3 +84,6 @@ nav:
       - appium使用教程: appium使用教程.md
       - uiautomator2使用教程: uiautomator2使用教程.md
       - 安卓手机设置VPN代理: 安卓手机设置VPN代理.md
+
+  - 自动化驱动数据采集:
+      - 自动化+接口拦截方案的实现: 自动化+接口拦截方案的实现.md
