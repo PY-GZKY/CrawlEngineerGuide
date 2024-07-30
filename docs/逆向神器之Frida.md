@@ -6,11 +6,10 @@ Frida 是一个强大的跨平台的动态插桩工具，可以用来hook各种�
 
 ### 安装 Frida
 
-`pip install frida`
-
-`pip install frida-tools`
-
-`frida-ps` 验证命令
+```
+pip install frida
+pip install frida-tools
+```
 
 ### 下载 frida-server
 
@@ -27,7 +26,7 @@ adb shell "chmod 755 /data/local/tmp/frida-server"
 adb shell "/data/local/tmp/frida-server &"
 ```
 
-frida-ps -U 可以查看设备正在运行的进程：
+`frida-ps -U` 可以查看设备正在运行的进程：
 
 ```text
 ➜  frida-ps -Ua
@@ -41,7 +40,7 @@ frida-ps -U 可以查看设备正在运行的进程：
 
 ### 开始Hook代码
 
-frida分客户端环境和服务端环境。在客户端我们可以编写Python代码，用于连接远程设备，提交要注入的代码到远程，接受服务端的发来的消息等。在服务端，我们需要用Javascript代码注入到目标进程，操作内存数据，给客户端发送消息等操作。我们也可以把客户端理解成控制端，服务端理解成被控端。
+frida 分客户端环境和服务端环境。在客户端我们可以编写Python代码，用于连接远程设备，提交要注入的代码到远程，接受服务端的发来的消息等。在服务端，我们需要用Javascript代码注入到目标进程，操作内存数据，给客户端发送消息等操作。我们也可以把客户端理解成控制端，服务端理解成被控端。
 假如我们要用PC来对Android设备上的某个进程进行操作，那么PC就是客户端，而Android设备就是服务端。
 
 frida hook有两种模式
