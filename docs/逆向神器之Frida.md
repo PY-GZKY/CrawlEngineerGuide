@@ -75,6 +75,7 @@ if(Java.available){
 }
 """
 
+
 def on_message(message, data):
     if message['type'] == 'send':
         print("[*] {0}".format(message['payload']))
@@ -95,13 +96,6 @@ script.load()
 sys.stdin.read()
 ```
 
-- 将上面的代码，保存为exp3.py
-- 执行adb shell 'su -c /data/local/tmp/frida-server'启动服务端
-- 运行目标App
-- 执行python exp3.py注入代码
-- 按返回键，再重新打开App,发现达到预期
-- 按Ctrl+C停止脚本和停止注入代码
-
 上面是一段Python代码，我们来分析它的步骤：
 
 - 通过调用frida.get_usb_device()方法来得到一个连接中的USB设备（Device类）实例
@@ -111,6 +105,15 @@ sys.stdin.read()
 - 接着调用Session类的create_script()方法创建一个脚本，传入需要注入的javascript代码并得到Script类实例
 - 调用Script类的on()方法添加一个消息回调，第一个参数是信号名，乖乖传入message就行，第二个是回调函数
 - 最后调用Script类的load()方法来加载刚才创建的脚本。
+
+如何运行：
+
+- 将上面的代码，保存为exp3.py
+- 执行adb shell 'su -c /data/local/tmp/frida-server'启动服务端
+- 运行目标App
+- 执行python exp3.py注入代码
+- 按返回键，再重新打开App,发现达到预期
+- 按Ctrl+C停止脚本和停止注入代码
 
 除了 get_usb_device 方法，还有 get_remote_device 方法，可以用来连接远程设备，比如连接到局域网内的某个设备。
 
