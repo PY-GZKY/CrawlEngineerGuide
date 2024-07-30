@@ -1,4 +1,3 @@
-### Frida
 
 Frida 是一个强大的跨平台的动态插桩工具，可以用来hook各种函数，修改函数参数，修改函数返回值等等。Frida支持Windows、macOS、Linux、iOS、Android等多个平台，支持多种语言，如JavaScript、Python、Swift、Objective-C等。
 
