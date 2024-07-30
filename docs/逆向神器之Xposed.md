@@ -1,4 +1,5 @@
 ### 模拟器上安装`xposed`总是提示缺少一个`ZIP`包
+
 > 解决: 找到模拟器的目录，`adb`所在目录，把文档内的`xposed`文件夹和`install.bat`文件放到目录下面
 
 ### 双击执行 `install.bat`
