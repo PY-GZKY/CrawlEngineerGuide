@@ -45,6 +45,8 @@ extra:
     property: 'UA-111276663-2'
 
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
   - admonition
   - codehilite
   - pymdownx.inlinehilite
