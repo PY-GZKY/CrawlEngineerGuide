@@ -45,14 +45,13 @@ extra:
     property: 'UA-111276663-2'
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
   - admonition
   - codehilite
   - pymdownx.inlinehilite
   - pymdownx.critic
   - toc:
       permalink: false
+  - pymdownx.highlight
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
